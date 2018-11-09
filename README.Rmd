@@ -23,11 +23,11 @@ library(skimr)
 
 ## Résumé
 
-Ces données proviennent directement des recherches menées par le chercheur de l'univeristé de Mons David Gillan et ses collaborateurs:
+Ces données proviennent directement des recherches menées par le chercheur David Gillan de l'université de Mons et ses collaborateurs:
 
 [Paleomicrobiology to investigate copper resistance in bacteria : isolation and description of Cupriavidus necator B9 in the soil of a medieval foundry](http://di.umons.ac.be/details.aspx?pub=0a0de102-c145-403f-9e1c-8ad4fdc1fc39)
 
-Le document mis à votre dispositon comprend deux feuilles au sein du fichier excell : 
+Le document mis à votre disposition est un fichier excell. Ce dernier comprend deux feuilles au sein du fichier excell : 
 
 - raw
 - phylum_raw 
@@ -70,9 +70,9 @@ La fonction ci-dessous permet de prendre connaissance des formats supportés par
 data_types()
 ```
 
-- Produisez un graphique en barre afin de représenter les données de cette seconde feuille
+- Produisez un graphique en barres afin de représenter les données de cette seconde feuille
 
-- Les données brutes de cette étude se trouve dans le dossier raw (dans le dossier data), que pensez vous de ce type d'encodage de données ? 
+- Les données brutes de cette étude se trouvent dans le dossier raw (dans le dossier data), que-pensez vous de ce type d'encodage de données ? Détaillez votre réflexion
 
 ## Challenges
 
