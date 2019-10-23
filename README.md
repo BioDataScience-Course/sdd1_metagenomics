@@ -53,7 +53,7 @@ fonction `read_excel()` pour importer les données au format xlsx.
 
 -   Importez également la seconde feuille du fichier
     *shot\_gun\_dcg.xlsx* qui se nomme *phylum\_raw*. Pour cela,
-    utiliser l’aide de la fonction read\_excel pour voir comment faire.
+    utilisez l’aide de la fonction read\_excel pour voir comment faire.
 
 ``` r
 ?readxl::read_excel

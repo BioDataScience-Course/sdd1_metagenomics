@@ -58,7 +58,7 @@ meta %>.%
 
 La fonction `read()` importe la première feuille si vous ne spécifiez pas la feuille que vous souhaitez. Cette fonction utilise en interne la fonction `read_excel()` pour importer les données au format xlsx.
 
-- Importez également la seconde feuille du fichier *shot_gun_dcg.xlsx* qui se nomme *phylum_raw*. Pour cela, utiliser l'aide de la fonction read_excel pour voir comment faire. 
+- Importez également la seconde feuille du fichier *shot_gun_dcg.xlsx* qui se nomme *phylum_raw*. Pour cela, utilisez l'aide de la fonction read_excel pour voir comment faire. 
 
 ```{r, eval=FALSE}
 ?readxl::read_excel
