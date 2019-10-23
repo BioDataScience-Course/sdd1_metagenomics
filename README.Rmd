@@ -19,7 +19,7 @@ library(skimr)
 
 # Analyse métagénomique de type shotgun sur 4 communautés microbiennes
 
-## Guyliann Engels & Philippe Grosjean
+## Guyliann Engels, Raphael Conotte & Philippe Grosjean
 
 ## Résumé
 
@@ -27,7 +27,7 @@ Ces données proviennent directement des recherches menées par le chercheur Dav
 
 [Paleomicrobiology to investigate copper resistance in bacteria : isolation and description of Cupriavidus necator B9 in the soil of a medieval foundry](http://di.umons.ac.be/details.aspx?pub=0a0de102-c145-403f-9e1c-8ad4fdc1fc39)
 
-Le document mis à votre disposition est un fichier excell. Ce dernier comprend deux feuilles au sein du fichier excell : 
+Le document mis à votre disposition est un fichier Excel qui comprend deux feuilles : 
 
 - raw
 - phylum_raw 
@@ -39,7 +39,7 @@ Le document mis à votre disposition est un fichier excell. Ce dernier comprend 
 
 - Créez un rapport d'analyse organisé en section  : introduction, Matériels et méthodes,...
 
-- Importez les données présentes dans le dossier data dans le fichier *shot_gun_dcg.xlsx*
+- Importez les données du fichier *shot_gun_dcg.xlsx* présent dans le dossier *data*. 
 
 - De quel type de tableau de données s'agit-il ? 
 
@@ -56,15 +56,15 @@ meta %>.%
   geom_col(position = "fill")
 ```
 
-La fonction read() importe la première feuille si vous ne spécifiez pas la feuille que vous souhaitez. La fonction read() utilise en interne la fonction read_excel() pour importer les données au format xlsx.
+La fonction `read()` importe la première feuille si vous ne spécifiez pas la feuille que vous souhaitez. Cette fonction utilise en interne la fonction `read_excel()` pour importer les données au format xlsx.
 
-- Importez également la seconde feuille du fichier *shot_gun_dcg.xlsx* qui se nomme *phylum_raw*
+- Importez également la seconde feuille du fichier *shot_gun_dcg.xlsx* qui se nomme *phylum_raw*. Pour cela, utiliser l'aide de la fonction read_excel pour voir comment faire. 
 
 ```{r, eval=FALSE}
 ?readxl::read_excel
 ```
 
-La fonction ci-dessous permet de prendre connaissance des formats supportés par la fonction read()
+La fonction ci-dessous permet de prendre connaissance des formats supportés par la fonction `read()`
 
 ```{r, eval=FALSE}
 data_types()
